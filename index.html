@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleção de Estado e Cidade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="form-section">
+        <h2>Selecione seu Estado e Cidade</h2>
+
+        <form>
+            <label for="estado">Estado:</label>
+            <select id="estado" name="estado" class="select-box">
+                <option value="default">--Selecione um estado--</option>
+            </select>
+
+            <label for="cidade">Cidade:</label>
+            <select id="cidade" name="cidade" class="select-box" disabled>
+                <option value="default">--Selecione uma cidade--</option>
+            </select>
+
+            <button id="mostrarSelecaoBtn" type="button">Mostrar Seleção</button>
+        </form>
+
+        <p id="resultado-selecao"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
