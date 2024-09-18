@@ -45,7 +45,7 @@ select {
 form {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 10px;
 }
 
 select:disabled {
@@ -54,5 +54,5 @@ select:disabled {
 }
 
 p {
-    width: 10px
+    margin: 15px 0 0 0;
 }
